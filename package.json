@@ -1,0 +1,50 @@
+{
+  "name": "api-crud",
+  "version": "1.0.1",
+  "description": "API for the simple CRUD using Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niseel/api-crud-nodejs.git"
+  },
+  "keywords": [
+    "CRUD",
+    "Nodejs",
+    "Express",
+    "Mongodb",
+    "Mongoose",
+    "Angular2",
+    "Docker"
+  ],
+  "author": "ThanhNC40",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.3.0 <11.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Niseel/api-crud-nodejs/issues"
+  },
+  "homepage": "https://github.com/Niseel/api-crud-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
